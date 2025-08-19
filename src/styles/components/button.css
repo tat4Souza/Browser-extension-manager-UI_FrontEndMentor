@@ -100,3 +100,17 @@
    background-color: var(--Neutral-600);
 }
 
+.button--modal {
+    font-size: 1.3rem;
+    border-radius: 1rem;
+}
+
+.button--modal-confirm{
+    background-color: var(--primary-color);
+    color: var(--Neutral-0);
+}
+
+.button--modal-confirm:hover {
+    background-color: var(--primary-light);
+    color: var(--Neutral-0);
+}

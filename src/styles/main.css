@@ -11,4 +11,6 @@
 @import "./components/navbar.css";
 @import "./components/button.css";
 @import "./components/grid.css";
-@import "./components/switch.css"
+@import "./components/switch.css";
+@import "./components/modal.css";
+@import "./components/noExtensions.css"

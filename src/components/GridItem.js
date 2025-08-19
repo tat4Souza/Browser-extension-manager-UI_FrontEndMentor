@@ -15,7 +15,6 @@ function GridItem({name, logo, description, status, darkTheme, onRemoveExtension
                 </div>
             </div>
             <div className="grid__footer">
-                {/* TODO: Consertar a visualização do que está ativo ou não no switchs */}
                 <Button className="button--remove" darkTheme={darkTheme} onClick={()=> onRemoveExtension(name)}>Remove</Button>
                 <Switch status={status} darkTheme={darkTheme} onToggle={onToggle} />
             </div>
