@@ -2,7 +2,7 @@ import classNames from "classnames";
 import Button from "./Button";
 import Switch from "./Switch";
 
-function GridItem({name, logo, description, status, darkTheme}) {
+function GridItem({name, logo, description, status, darkTheme, onRemoveExtension}) {
     return (
         <div className={classNames("grid__item", {"grid__item--dark": darkTheme})}>
             <div className="grid__logo-info">
@@ -13,7 +13,8 @@ function GridItem({name, logo, description, status, darkTheme}) {
                 </div>
             </div>
             <div className="grid__footer">
-                <Button className="button--remove" darkTheme={darkTheme}>Remove</Button>
+                {/* TODO: Consertar a visualização do que está ativo ou não no switchs */}
+                <Button className="button--remove" darkTheme={darkTheme} onClick={()=> onRemoveExtension(name)}>Remove</Button>
                 <Switch status={status} darkTheme={darkTheme} />
             </div>
         </div>

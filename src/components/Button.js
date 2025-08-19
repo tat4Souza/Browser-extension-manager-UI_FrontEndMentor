@@ -1,11 +1,9 @@
 import classNames from "classnames";
-import { useState } from "react";
 
-function Button({children, className, darkTheme}) {
-    const [isActive, setIsActive] = useState(false);
+function Button({children, className, darkTheme, onClick, isActive}) {
 
     return (
-        <button className={classNames("button", className, {"button--active": isActive, "button--dark": darkTheme})} onClick={()=> setIsActive(cur => !cur)}>
+        <button className={classNames("button", className, {"button--active": isActive, "button--dark": darkTheme})} onClick={onClick}>
             {children}
         </button>
     )

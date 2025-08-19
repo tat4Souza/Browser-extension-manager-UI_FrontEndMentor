@@ -24,20 +24,6 @@
     box-shadow: var(--primary-color) 0px 1px 3px, var(--primary-color) 0px 0px 0px 2px;
 }
 
-.button--active{
-    color: var(--Neutral-0);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-.button--active:focus{
-    color: var(--Neutral-0);
-}
-
-.button--active:hover{
-    background-color: var(--primary-light);
-}
-
 .button--remove {
     background-color: var(--Neutral-0);
     color: var(--Neutral-900);
@@ -52,6 +38,22 @@
 
 .button--remove:hover {
     background-color: var(--primary-color);
+    color: var(--Neutral-0);
+}
+
+.button--active{
+    color: var(--Neutral-0);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.button--active:focus{
+    background-color: var(--primary-color);
+    color: var(--Neutral-0);
+}
+
+.button--active:hover{
+    background-color: var(--primary-light);
     color: var(--Neutral-0);
 }
 
@@ -80,7 +82,6 @@
 }
 
 .button--active.button--dark:focus{
-    background-color: var(--primary-color) !important;
     border: 2px solid var(--Neutral-900);
 }
 
