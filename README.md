@@ -2,13 +2,6 @@
 
 Essa é a minha solução para [Browser extensions manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp).  
 
-## Table of contents
-
-- [Overview](#overview)
-  - [O desafio](#o-desafio)
-  - [Feito com](#feito-com)
-
-
 ### O desafio
 
 Usuários devem ser capazes de:
