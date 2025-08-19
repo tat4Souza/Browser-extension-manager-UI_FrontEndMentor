@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'primeicons/primeicons.css';
+        
+
+@import "base.css";
+@import "variables.css";
+@import "animations.css";
+@import "utilities.css";
+
+@import "./components/header.css";
+@import "./components/navbar.css";
+@import "./components/button.css";
+@import "./components/grid.css";
+@import "./components/switch.css"

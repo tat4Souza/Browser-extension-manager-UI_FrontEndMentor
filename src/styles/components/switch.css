@@ -1,0 +1,44 @@
+.switch-btn {
+    background-color: var(--Neutral-300);
+    width: 4.2rem;
+    height: 2.3rem;
+    border-radius: 10rem;
+    padding: 0 0.4rem;
+    position: relative;
+    border: 2px solid transparent;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.switch-btn:focus {
+    box-shadow: var(--primary-color-border);
+    border: 2px solid var(--Neutral-0);
+}
+
+.switch-btn__indicator {
+    background-color: white;
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+    position: absolute;
+    transition: all var(--transition);
+}
+
+.switch-btn__indicator--toggled {
+    transform: translateX(1.4rem);
+}
+
+.switch-btn--dark {
+ background-color: var(--Neutral-600);
+}
+
+.switch-btn--dark:focus {
+   border-color: var(--Neutral-800);
+}
+
+.switch-btn--toggled {
+    background-color: var(--primary-color);
+}

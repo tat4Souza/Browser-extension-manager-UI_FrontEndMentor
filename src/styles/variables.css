@@ -1,0 +1,34 @@
+:root {
+/* TEXT VARIABLES */
+--default-family: "Noto Sans", sans-serif;
+--default-font-size: 1.4rem;
+
+
+    
+/* DARK THEME COLORS */
+--Neutral-900: hsl(226, 75%, 14%);
+--Neutral-800: hsl(226, 25%, 17%);
+--Neutral-700: hsl(225, 23%, 24%);
+--Neutral-600: hsl(226, 11%, 37%);
+--Neutral-300: hsl(0, 0%, 78%);
+--Neutral-200: hsl(217, 61%, 90%);
+--Neutral-100: hsl(0, 0%, 93%);
+--Neutral-0: hsl(200, 60%, 99%);
+
+--dark-color-1: #040918;
+--dark-color-2: #1F2535;
+--dark-accent-color: #0B2C3B;
+
+--border-color: #44525F;
+
+--text-color: #FFFCF0;
+    
+/* COLORS */
+--primary-color: #F24760;
+--primary-light: #f25c73;
+
+/* VARIABLES */
+--transition: 0.3s ease;
+--primary-color-border: var(--primary-color) 0px 1px 3px, var(--primary-color) 0px 0px 0px 2px;
+
+}

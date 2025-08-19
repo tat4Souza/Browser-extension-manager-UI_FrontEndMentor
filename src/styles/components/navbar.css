@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__h1 {
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.nav__h1--dark {
+    color: var(--Neutral-900);
+}
+
+
+
+.navbar__buttons{
+    display: flex;
+    gap: 1rem;
+}

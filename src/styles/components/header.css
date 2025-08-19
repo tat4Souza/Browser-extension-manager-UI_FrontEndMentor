@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 2rem;
+    height: 7rem;
+    transition: 0.3s ease;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--darkMode{
+    background-color: var(--Neutral-800);
+}
+
+.header--lightMode {
+    background-color: var(--Neutral-0)
+}
+
+.img-container{
+    width: 100%;
+    max-width: 18rem;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-color: transparent;
+    border-radius: 1rem;
+    padding: 1.4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.switch--darkMode {
+    background-color: var(--Neutral-700);
+    color: var(--text-color);
+}
+
+.switch--lightMode {
+    background-color: var(--Neutral-100);
+    color: var(--Neutral-800);
+}
+
+.switch--darkMode:hover {
+    background-color: var(--Neutral-600)
+}
+
+.switch--lightMode:hover {
+    background-color: var(--Neutral-300);
+}
+
+.switch:focus{
+    box-shadow: var(--primary-color) 0px 1px 3px, var(--primary-color) 0px 0px 0px 2px;
+}
+
+.switch--darkMode:focus {
+    background-color: var(--Neutral-600);
+    border: 2px solid var(--Neutral-800);
+}
+
+.switch--lightMode:focus {
+    border: 2px solid var(--Neutral-0);
+}
+
+.animated {
+    animation: spin 0.5s;
+}
+
+    

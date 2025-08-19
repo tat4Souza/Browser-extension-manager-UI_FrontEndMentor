@@ -1,0 +1,101 @@
+.button {
+    border-radius: 10rem;
+      background-color: var(--Neutral-0);
+    border: 1px solid var(--Neutral-300);
+    color: var(--Neutral-900);
+    
+    font-family: var(--font-family-default);
+    padding: 1rem 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: var(--transition);
+
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--Neutral-100);
+    color: rgba(9,21, 62, 0.6);
+}
+
+.button:focus{
+    border: 2px solid var(--Neutral-0);
+    background-color: var(--Neutral-100);
+    box-shadow: var(--primary-color) 0px 1px 3px, var(--primary-color) 0px 0px 0px 2px;
+}
+
+.button--active{
+    color: var(--Neutral-0);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.button--active:focus{
+    color: var(--Neutral-0);
+}
+
+.button--active:hover{
+    background-color: var(--primary-light);
+}
+
+.button--remove {
+    background-color: var(--Neutral-0);
+    color: var(--Neutral-900);
+    border-color: var(--Neutral-300);
+    font-size: 1.3rem;
+    padding: 1rem 1.6rem;
+}
+
+.button--remove:focus {
+    background-color: var(--Neutral-100);
+}
+
+.button--remove:hover {
+    background-color: var(--primary-color);
+    color: var(--Neutral-0);
+}
+
+/* DARK MODE */
+
+.button--dark {
+    border: 1px solid var(--Neutral-600);
+    background-color: var(--Neutral-700);
+    color: var(--text-color);
+}
+
+.button--dark:hover {
+    background-color: var(--Neutral-600);
+    color: var(--text-color);
+}
+
+.button--dark:focus{
+    border: 2px solid var(--Neutral-900);
+    background-color: var(--Neutral-600);
+}
+
+.button--active.button--dark {
+    background-color: var(--primary-color);
+    color: var(--Neutral-900);
+    border-color: var(--primary-color);
+}
+
+.button--active.button--dark:focus{
+    background-color: var(--primary-color) !important;
+    border: 2px solid var(--Neutral-900);
+}
+
+.button--remove.button--dark {
+    background-color: var(--Neutral-800);
+    color: var(--text-color);
+   border-color: var(--Neutral-600);
+}
+
+.button--remove.button--dark:focus {
+  background-color: var(--Neutral-600);
+  border-color: var(--Neutral-800);
+}
+
+.button--remove.button--dark:hover {
+   background-color: var(--Neutral-600);
+}
+
