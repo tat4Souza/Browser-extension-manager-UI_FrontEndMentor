@@ -1,13 +1,10 @@
 import classNames from "classnames";
-import { useState } from "react";
 
-function Switch({status, darkTheme}) {
-    const [isActive, setIsActive] = useState(status);
-    console.log(status);
+function Switch({status, darkTheme, onToggle}) {
 
     return (
-        <div className={classNames("switch-btn", {"switch-btn--toggled": isActive, "switch-btn--dark": darkTheme})} onClick={()=> setIsActive(cur => !cur)} tabIndex="0">
-            <span className={classNames("switch-btn__indicator", {"switch-btn__indicator--toggled": isActive})} ></span>
+        <div className={classNames("switch-btn", {"switch-btn--toggled": status, "switch-btn--dark": darkTheme})} onClick={onToggle} tabIndex="0">
+            <span className={classNames("switch-btn__indicator", {"switch-btn__indicator--toggled": status})} ></span>
         </div>
     )
 };
