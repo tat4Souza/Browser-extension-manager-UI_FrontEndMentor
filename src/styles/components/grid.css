@@ -5,6 +5,21 @@
     grid-gap: 1rem;
 }
 
+@media (max-width: 62.5em) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 37.5em) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
 .grid__item {
     display: flex;
     flex-direction: column;
@@ -21,6 +36,12 @@
     display: grid;
     grid-template-columns: min-content fit-content(25rem);
     grid-column-gap: 1vw;
+}
+
+@media (max-width: 37.5em) {
+    .grid__logo-info {
+        grid-column-gap: 4vw;
+    }
 }
 
 .grid__info{

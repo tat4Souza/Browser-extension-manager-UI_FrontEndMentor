@@ -10,6 +10,7 @@ html {
   font-size: 62.5%; 
 }
 
+
 body {
   box-sizing: border-box;
   font-family: var(--default-family);
@@ -44,6 +45,19 @@ body {
     max-width: 70%;
     padding:2rem;
 }
+
+@media (max-width: 62.5em) {
+  .content {
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 25em) {
+  .content {
+    min-width: 100%;
+  }
+}
+
 
 ::selection {
   background-color: #f25c7267;

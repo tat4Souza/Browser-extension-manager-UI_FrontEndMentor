@@ -27,6 +27,25 @@
   overflow: hidden;
 }
 
+@media (max-width: 62.5em) {
+    .modal__container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 37.5em) {
+    .modal__container {
+        width: 70%;
+        height: 35%;
+    }
+}
+
+@media (max-width: 25em) {
+    .modal__container {
+        width: 85%;
+    }
+}
+
 .modal__container--dark {
     background-color: var(--Neutral-800);
     border: 1px solid var(--Neutral-600);
@@ -69,6 +88,12 @@
     top: 28%;
 }
 
+@media (max-width: 37.5em) {
+    .modal__header:after {
+      top: 22%;
+    }
+}
+
 .modal__header--dark:after{
     background-color: var(--Neutral-600);
 }
@@ -87,4 +112,20 @@
     align-self: flex-end;
     display: flex;
     gap: 1rem;
+}
+
+@media (max-width: 62.5em) {
+    .modal__message {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    .modal__footer {
+        width: 100%;
+    }
+
+    .button--modal {
+        font-size: 1.6rem;
+        width: 100%;
+    }
 }

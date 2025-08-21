@@ -4,16 +4,28 @@
     width: 100%;
 }
 
+@media (max-width: 37.5em) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
 .nav__h1 {
     color: var(--text-color);
     transition: var(--transition);
 }
 
+@media (max-width: 37.5em) {
+    .nav__h1 {
+        font-size: 3rem;
+    }
+}
+
 .nav__h1--dark {
     color: var(--Neutral-900);
 }
-
-
 
 .navbar__buttons{
     display: flex;
