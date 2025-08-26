@@ -1,6 +1,6 @@
 # Frontend Mentor - Solução para UI de gerenciamento de extensões
 
-Essa é a minha solução para [Browser extensions manager UI challenge no Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp).  
+Essa é a minha solução para [Browser extensions manager UI challenge no Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp).
 
 - [Resumo](#resumo) - visão geral do projeto
   - [O Desafio](#o-desafio) - objetivos da UI de gerenciamento
@@ -12,6 +12,7 @@ Essa é a minha solução para [Browser extensions manager UI challenge no Front
 - [Autor](#autor) - link dos meus perfis
 
 ## 📝 Resumo
+
 &nbsp;&nbsp;&nbsp;O projeto tem como objetivo o desenvolvimento de uma UI que permita a administração das extensões de navegador que estão ativas e inativas, possibilitando, também, a remoção de qualquer uma delas.
 
 ## 🎯 O Desafio
@@ -27,10 +28,13 @@ Usuários devem ser capazes de:
 
 ## 🎥 Vídeo
 
+<a href="https://youtu.be/Xaln8cSK0ic" target="_blank">
+  <img src="./public/images/Browser Extension Manager - thumbnail.png" alt="Gerenciador de Extensões funcionando" />
+</a>
+
 ## ⚙️ Meu Processo
 
 &nbsp;&nbsp;&nbsp;Na criação do projeto, usei o template proporcionado pelo create-react-app. Usei o React para criar um único componente reutilizável para todos os botões presentes na tela e também para fazer um componente único para as extensões em si. No processo do desafio, pude me aprofundar um pouco mais em temáticas de cor diferente para uma mesma UI. Fazer os estilos de todos os estados do botão foi mais cansativo, já que não era do meu costume fazer alterações tão distintas para cada modo interativo. Eu decidi mudar levemente a cor principal e algumas das cores do modo escuro, mas apenas por satisfação pessoal. Outra adição que inclui, foi um modal que confirma se o usuário realmente deseja remover a extensão, pois achei que seria conveniente e uma boa oportunidade para treinar algo nesse sentido.
-
 
 ## 🛠️ Feito com:
 
